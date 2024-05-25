@@ -4,3 +4,5 @@
  É necessário o fornecimento de uma chave de OpenAI API válida.
 
  Feito usando Unity.
+
+ Executável do jogo (para Windows) se encontra na pasta Build.
