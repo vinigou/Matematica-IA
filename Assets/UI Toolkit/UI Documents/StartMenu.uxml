@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=86b4810b059cbbd4f95dacb2ca659ca8&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement name="ContainerStart" class="startMenu-idle" style="flex-grow: 1; position: relative;">
+        <ui:Label tabindex="-1" text="Matemática IA" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" class="header" />
+        <ui:Button text="Iniciar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartButton" class="startButton" style="top: auto;" />
+    </ui:VisualElement>
+</ui:UXML>

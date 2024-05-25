@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Questions.uss?fileID=7433441132597879392&amp;guid=f3c52684a02b9f0429e06f94eee57bbf&amp;type=3#Questions" />
+    <ui:VisualElement name="QuestionsMenuContainer" class="screen-idle">
+        <ui:VisualElement name="QuestionContainer" class="questionContainer">
+            <ui:Label tabindex="-1" text="0/10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuestionNumber" class="questionNumber" />
+            <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="QuestionScrollView">
+                <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin pharetra arcu, at convallis quam tincidunt eget. Suspendisse mattis risus non pulvinar egestas. Praesent aliquet sapien eu euismod vehicula. Duis pellentesque, nisi sit amet dictum tempor, lorem dui laoreet leo, nec scelerisque lacus ipsum sit amet leo. Etiam id nunc consectetur turpis laoreet sagittis ut ut lacus. Nullam laoreet, odio sodales rhoncus tristique, magna arcu pulvinar magna, eu faucibus nibh magna in augue. Nulla porta risus vel orci faucibus, vitae malesuada diam pellentesque. Sed in dictum augue, commodo blandit ex. Integer imperdiet metus tortor, quis elementum mi elementum ullamcorper." parse-escape-sequences="true" display-tooltip-when-elided="true" name="Question" class="question" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="AnswersScroll">
+            <ui:VisualElement name="Answers" style="flex-grow: 1;">
+                <ui:Button text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin pharetra arcu, at convallis quam tincidunt eget. Suspendisse mattis risus non pulvinar egestas." parse-escape-sequences="true" display-tooltip-when-elided="true" name="AnswerButton1" class="answer" />
+                <ui:Button text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin pharetra arcu, at convallis quam tincidunt eget. Suspendisse mattis risus non pulvinar egestas." parse-escape-sequences="true" display-tooltip-when-elided="true" name="AnswerButton2" class="answer" />
+                <ui:Button text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin pharetra arcu, at convallis quam tincidunt eget. Suspendisse mattis risus non pulvinar egestas." parse-escape-sequences="true" display-tooltip-when-elided="true" name="AnswerButton3" class="answer" />
+                <ui:Button text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin pharetra arcu, at convallis quam tincidunt eget. Suspendisse mattis risus non pulvinar egestas." parse-escape-sequences="true" display-tooltip-when-elided="true" name="AnswerButton4" class="answer" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

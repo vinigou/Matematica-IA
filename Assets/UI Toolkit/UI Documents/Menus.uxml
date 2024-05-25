@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="StartMenu" src="project://database/Assets/UI%20Toolkit/UI%20Documents/StartMenu.uxml?fileID=9197481963319205126&amp;guid=7de88852c71bd924c8302f54004ed7be&amp;type=3#StartMenu" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=86b4810b059cbbd4f95dacb2ca659ca8&amp;type=3#MainMenuStyle" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Menus.uss?fileID=7433441132597879392&amp;guid=2d87e5a29b104924290a12945482b3e2&amp;type=3#Menus" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Questions.uss?fileID=7433441132597879392&amp;guid=f3c52684a02b9f0429e06f94eee57bbf&amp;type=3#Questions" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Results.uss?fileID=7433441132597879392&amp;guid=d43e5f822a9e05c4c8ba132192757ecc&amp;type=3#Results" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/PerformanceSelectStyle.uss?fileID=7433441132597879392&amp;guid=5d0d3a7b8dbe8294c892d957a24acc2e&amp;type=3#PerformanceSelectStyle" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/PerformanceDisplay.uss?fileID=7433441132597879392&amp;guid=c0e6cd042f0a03c47bb9444c3fc50bd7&amp;type=3#PerformanceDisplay" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/ExitScreen.uss?fileID=7433441132597879392&amp;guid=cc00093242487954c92defca1813f9fb&amp;type=3#ExitScreen" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; justify-content: center;">
+        <ui:Instance template="StartMenu" name="StartMenu" />
+    </ui:VisualElement>
+</ui:UXML>

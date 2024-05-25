@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/ExitScreen.uss?fileID=7433441132597879392&amp;guid=cc00093242487954c92defca1813f9fb&amp;type=3#ExitScreen" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Menus.uss?fileID=7433441132597879392&amp;guid=2d87e5a29b104924290a12945482b3e2&amp;type=3#Menus" />
+    <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseGameButtonShow" class="closeGameButtonShow" />
+    <ui:VisualElement name="CloseGameContainer" class="closeGameContainer" style="flex-grow: 1; display: none;">
+        <ui:Label tabindex="-1" text="Fechar o progama?" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseGameLabel" class="header2" />
+        <ui:Button text="Fechar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseGameButtonConfirm" class="button" />
+        <ui:Button text="Retornar ao Programa" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseGameButtonReturn" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

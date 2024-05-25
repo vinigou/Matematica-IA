@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="PerformanceSelectButton" src="project://database/Assets/UI%20Toolkit/UI%20Documents/Templates/PerformanceSelectButton.uxml?fileID=9197481963319205126&amp;guid=ed6e691e095e4744090e078eb20cb26f&amp;type=3#PerformanceSelectButton" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/PerformanceSelectStyle.uss?fileID=7433441132597879392&amp;guid=5d0d3a7b8dbe8294c892d957a24acc2e&amp;type=3#PerformanceSelectStyle" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Menus.uss?fileID=7433441132597879392&amp;guid=2d87e5a29b104924290a12945482b3e2&amp;type=3#Menus" />
+    <ui:VisualElement name="PerformanceSelectContainer" class="screen-idle" style="align-self: center;">
+        <ui:Label tabindex="-1" text="Escolha o Questionário" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PerformanceSelectLabel" class="header2" style="margin-top: 60px; justify-content: flex-start;" />
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="PerformanceSelectView" class="performanceSelectView">
+            <ui:VisualElement name="PerformanceViewContainer">
+                <ui:Instance template="PerformanceSelectButton" name="PerformanceSelectButton" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+        <ui:Label tabindex="-1" text="Nenhum Questionário encontrado" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NoPerformancesLabel" class="noPerformancesLabel" />
+        <ui:Button text="Retornar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ReturnFromPerformanceSelectButton" class="returnButton" />
+    </ui:VisualElement>
+</ui:UXML>

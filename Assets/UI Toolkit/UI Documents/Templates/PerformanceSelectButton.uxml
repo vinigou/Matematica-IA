@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/PerformanceSelectStyle.uss?fileID=7433441132597879392&amp;guid=5d0d3a7b8dbe8294c892d957a24acc2e&amp;type=3#PerformanceSelectStyle" />
+    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PerformanceSelectButton" class="performanceSelectButton" />
+</ui:UXML>

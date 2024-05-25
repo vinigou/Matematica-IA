@@ -1,0 +1,44 @@
+.resultsText {
+    align-self: center;
+    font-size: 128px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-text-outline-width: 2px;
+}
+
+.resultsTextGood {
+    color: rgb(56, 173, 90);
+    transition-property: translate;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.resultsTextAverage {
+    color: rgb(173, 157, 56);
+    transition-property: translate;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+.resultsTextFailed {
+    color: rgb(27, 27, 27);
+    transition-property: translate, rotate;
+    transition-duration: 0.2s, 0.2s;
+    transition-timing-function: ease-in-bounce, ease-in-bounce;
+}
+
+.resultsDescription {
+    align-self: center;
+    font-size: 64px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-text-outline-width: 1px;
+    color: rgb(255, 255, 255);
+    margin-top: 32px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    white-space: normal;
+}

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Menus.uss?fileID=7433441132597879392&amp;guid=2d87e5a29b104924290a12945482b3e2&amp;type=3#Menus" />
+    <ui:VisualElement name="ContainerOptions" class="screen-idle margins" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Opções" parse-escape-sequences="true" display-tooltip-when-elided="true" name="OptionsLabel" class="header2" />
+        <ui:Button text="Iniciar Questionário" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SelectQuizButton" class="button" style="margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;" />
+        <ui:Button text="Consultar Desempenho" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CheckPerformanceButton" class="button" style="margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;" />
+        <ui:Button text="Trocar Chave" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChangeKeyButton" class="button" style="margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;" />
+    </ui:VisualElement>
+</ui:UXML>

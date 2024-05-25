@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="PDAnswer" src="project://database/Assets/UI%20Toolkit/UI%20Documents/Templates/PDAnswer.uxml?fileID=9197481963319205126&amp;guid=020794bbd1626a54ba4cd6652fbe44a5&amp;type=3#PDAnswer" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/PerformanceDisplay.uss?fileID=7433441132597879392&amp;guid=c0e6cd042f0a03c47bb9444c3fc50bd7&amp;type=3#PerformanceDisplay" />
+    <ui:VisualElement name="PDQuestionContainer" class="pdQuestionContainer" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="Questão 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PDQuestionNumberLabel" class="pdQuestionHeader" />
+        <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin pharetra arcu, at convallis quam tincidunt eget. Suspendisse mattis risus non pulvinar egestas. Praesent aliquet sapien eu euismod vehicula. Duis pellentesque, nisi sit amet dictum tempor, lorem dui laoreet leo, nec scelerisque lacus ipsum sit amet leo. Etiam id nunc consectetur turpis laoreet sagittis ut ut lacus. Nullam laoreet, odio sodales rhoncus tristique, magna arcu pulvinar magna, eu faucibus nibh magna in augue. Nulla porta risus vel orci faucibus, vitae malesuada diam pellentesque. Sed in dictum augue, commodo blandit ex. Integer imperdiet metus tortor, quis elementum mi elementum ullamcorper." parse-escape-sequences="true" display-tooltip-when-elided="true" name="PDQuestionTextLabel" class="pdQuestionParagraph" />
+        <ui:VisualElement name="PDAnswerContainer" style="flex-grow: 1;">
+            <ui:Instance template="PDAnswer" name="PDAnswer" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

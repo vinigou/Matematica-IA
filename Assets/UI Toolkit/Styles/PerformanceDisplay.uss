@@ -1,0 +1,100 @@
+.labelStyle {
+    font-size: 64px;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgba(0, 0, 0, 0.82);
+    -unity-text-align: upper-center;
+}
+
+.pdReturnButton {
+    background-color: rgb(110, 167, 237);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    align-self: center;
+    font-size: 52px;
+    transition-duration: 0.1s;
+    scale: 1 1;
+    margin-bottom: 60px;
+}
+
+.pdReturnButton:hover {
+    scale: 1.1 1.1;
+}
+
+.pdQuestionContainer {
+    margin-bottom: 16px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.pdQuestionHeader {
+    font-size: 32px;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 0.25px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.pdQuestionParagraph {
+    font-size: 36px;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+    -unity-text-outline-width: 0.25px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+.pdAnswer {
+    white-space: normal;
+    font-size: 40px;
+    background-color: rgb(209, 208, 208);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-left-width: 6px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.pdAnswerNotSelectedCorrect {
+    border-left-color: rgb(13, 96, 13);
+    border-right-color: rgb(13, 96, 13);
+    border-top-color: rgb(13, 96, 13);
+    border-bottom-color: rgb(13, 96, 13);
+    color: rgb(51, 51, 51);
+    background-color: rgb(154, 217, 175);
+}
+
+.pdAnswerSelectedWrong {
+    background-color: rgb(241, 85, 85);
+}
+
+.pdAnswerSelectedCorrect {
+    background-color: rgb(0, 140, 25);
+}
+
+.pdScrollView {
+    margin-bottom: 12px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+}

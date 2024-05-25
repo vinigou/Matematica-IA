@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/PerformanceDisplay.uss?fileID=7433441132597879392&amp;guid=c0e6cd042f0a03c47bb9444c3fc50bd7&amp;type=3#PerformanceDisplay" />
+    <ui:Label tabindex="-1" text="Resposta" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PDAnswer" class="pdAnswer" />
+</ui:UXML>

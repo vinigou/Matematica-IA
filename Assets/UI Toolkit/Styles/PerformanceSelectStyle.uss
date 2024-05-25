@@ -1,0 +1,88 @@
+.performanceSelectButton {
+    margin-top: 24px;
+    margin-right: 32px;
+    margin-bottom: 24px;
+    margin-left: 32px;
+    font-size: 48px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    scale: 1 1;
+    transition-duration: 0.2s;
+}
+
+.performanceSelectButton:hover {
+    scale: 1.05 1.05;
+}
+
+.goodButton {
+    background-color: rgb(95, 185, 90);
+}
+
+.averageButton {
+    background-color: rgb(201, 204, 80);
+}
+
+.badButton {
+    background-color: rgb(197, 70, 70);
+}
+
+.performanceSelectView {
+    background-color: rgba(17, 29, 82, 0.52);
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.noPerformancesLabel {
+    font-size: 72px;
+    align-self: center;
+    background-color: rgba(17, 29, 82, 0.52);
+    color: rgb(226, 219, 219);
+    padding-top: 218px;
+    padding-right: 308px;
+    padding-bottom: 218px;
+    padding-left: 308px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.returnButton {
+    font-size: 64px;
+    align-self: center;
+    margin-top: 24px;
+    margin-right: 12px;
+    margin-left: 12px;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+    border-bottom-right-radius: 38px;
+    border-bottom-left-radius: 38px;
+    background-color: rgb(110, 168, 238);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    scale: 1 1;
+    transition-duration: 0.1s;
+    margin-bottom: 60px;
+}
+
+.returnButton:hover {
+    scale: 1.1 1.1;
+}

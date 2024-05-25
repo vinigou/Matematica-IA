@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Menus.uss?fileID=7433441132597879392&amp;guid=2d87e5a29b104924290a12945482b3e2&amp;type=3#Menus" />
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Results.uss?fileID=7433441132597879392&amp;guid=d43e5f822a9e05c4c8ba132192757ecc&amp;type=3#Results" />
+    <ui:VisualElement name="ContainerResults" class="margins screen-idle" style="flex-grow: 1;">
+        <ui:ScrollView scroll-deceleration-rate="0,135" elasticity="0,1" name="ResultsScrollView">
+            <ui:Label tabindex="-1" text="Resultado" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HeaderResults" class="header header2" />
+            <ui:Label tabindex="-1" text="10/10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResultsText" class="resultsText" />
+            <ui:Label tabindex="-1" text="Parabéns, você arrasou!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResultsDescription" class="resultsDescription" />
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResultsAdvice" class="resultsDescription" style="display: none;" />
+        </ui:ScrollView>
+        <ui:Button text="Retornar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResultsReturnButton" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

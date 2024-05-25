@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Styles/Menus.uss?fileID=7433441132597879392&amp;guid=2d87e5a29b104924290a12945482b3e2&amp;type=3#Menus" />
+    <ui:VisualElement name="ContainerQuizSelect" class="screen-idle" style="flex-grow: 1; justify-content: flex-start; align-self: stretch;">
+        <ui:Label tabindex="-1" text="Escolha a matéria:" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SelectQuiz" class="header" style="margin-bottom: 35px;" />
+        <ui:ScrollView name="QuizButtonScrollView" class="scrollView">
+            <ui:VisualElement name="QuizButtonScrollViewContainer" style="flex-grow: 1; margin-top: 5px; margin-bottom: 40px;">
+                <ui:Button text="Números e Operações (Simples)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonOperacoes1" class="button" />
+                <ui:Button text="Geometria (Simples)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonGeometria1" class="button" />
+                <ui:Button text="Grandezas e Medidas (Simples)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonMedidas1" class="button" />
+                <ui:Button text="Probabilidade e Estatística (Simples)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonProbabilidade1" class="button" />
+                <ui:Button text="Números e Operações (Avançado)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonOperacoes2" class="button" />
+                <ui:Button text="Álgebra" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonAlgebra" class="button" />
+                <ui:Button text="Geometria (Avançado)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonGeometria2" class="button" />
+                <ui:Button text="Grandezas e Medidas (Avaçado)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonMedidas2" class="button" />
+                <ui:Button text="Probabilidade e Estatística (Avançado)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonProbabilidade2" class="button" />
+            </ui:VisualElement>
+        </ui:ScrollView>
+        <ui:Button text="Retornar" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ReturnFromQuizSelectButton" class="button" style="margin-top: 32px; margin-right: 32px; margin-bottom: 32px; margin-left: 32px; width: 452px; height: 134px;" />
+        <ui:VisualElement name="QuizGenerationContainer" style="flex-grow: 1; position: absolute; align-items: center; align-self: center; width: 100%; height: 100%; background-color: rgba(0, 8, 84, 0.18); display: none;">
+            <ui:Label tabindex="-1" text="Gerando um questionário..." parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuizGenerationLabel" class="header2" style="white-space: normal; top: 332px; width: 1239px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="QuizSelectExceptionContainer" style="flex-grow: 1; position: absolute; align-items: center; align-self: center; width: 100%; height: 100%; background-color: rgba(0, 8, 84, 0.25); display: none;">
+            <ui:Label tabindex="-1" text="Falha na criação do questionário. Tente em outro momento, ou use outra chave." parse-escape-sequences="true" display-tooltip-when-elided="true" name="QuizSelectExceptionLabel" class="header2" style="white-space: normal; top: 254px; margin-right: 100px; margin-left: 100px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
